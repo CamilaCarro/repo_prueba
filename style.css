@@ -285,15 +285,18 @@ span{
     0%{
         background-image: url(./galeria/galeriados.jpg);
         background-size: cover;
+        display: block;
     }
         
     25%{
         background-image: url(./galeria/galeriatres.jpg);
         background-size: cover;
+        display: block;
     }
     50%{
         background-image: url(./galeria/galeria.jpg);
         background-size: cover;
+        display: block;
     }
     100% {
         background-image: url(./galeria/galeriauno.jpg);
@@ -498,6 +501,8 @@ span{
     }
     .iniciogaleria h1{
         font-size: 35px;
+        animation-name: none;
+        background-image: url(galeria/galeriados.jpg);
     }
     .grilladefotos{
         grid-template-columns: 45% 45% ;
